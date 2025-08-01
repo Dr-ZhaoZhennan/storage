@@ -1,0 +1,40 @@
+{
+  "models": [
+    {
+      "name": "deepseek-chat",
+      "url": "https://api.deepseek.com/chat/completions",
+      "api_key": "sk-36067cd796cd4895b310bfe9095de91a",
+      "model_id": "deepseek-chat",
+      "type": "openai"
+    },
+    {
+      "name": "deepseek-reasoner",
+      "url": "https://api.deepseek.com/chat/completions",
+      "api_key": "sk-36067cd796cd4895b310bfe9095de91a",
+      "model_id": "deepseek-reasoner",
+      "type": "openai"
+    },
+    {
+      "name": "ollama-local",
+      "url": "http://localhost:11434/api/chat",
+      "api_key": "",
+      "model_id": "qwen2.5:7b",
+      "type": "ollama"
+    },
+    {
+      "name": "ollama-codellama",
+      "url": "http://localhost:11434/api/chat",
+      "api_key": "",
+      "model_id": "codellama:7b",
+      "type": "ollama"
+    },
+    {
+      "name": "ollama-llama3",
+      "url": "http://localhost:11434/api/chat",
+      "api_key": "",
+      "model_id": "llama3.1:8b",
+      "type": "ollama"
+    }
+  ],
+  "default_model": "deepseek-chat"
+}
